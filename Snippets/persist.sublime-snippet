@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @persistent
+ * @var ${1:type}
+ */
+public \$${2:property};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>persist</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>Persistent property</description>
+</snippet>

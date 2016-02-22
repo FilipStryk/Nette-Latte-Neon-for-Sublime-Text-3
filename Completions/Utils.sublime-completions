@@ -1,0 +1,22 @@
+{
+	"scope": "source.php",
+	"completions":
+	[
+		{ "trigger": "n-o\tNette\\Object", "contents": "Nette\\Object" },
+		{ "trigger": "n-u-ah\tNette\\Utils\\ArrayHash", "contents": "Nette\\Utils\\ArrayHash" },
+		{ "trigger": "n-u-al\tNette\\Utils\\ArrayList", "contents": "Nette\\Utils\\ArrayList" },
+		{ "trigger": "n-u-ar\tNette\\Utils\\Arrays", "contents": "Nette\\Utils\\Arrays" },
+		{ "trigger": "n-u-c\tNette\\Utils\\Callback", "contents": "Nette\\Utils\\Callback" },
+		{ "trigger": "n-u-dt\tNette\\Utils\\DateTime", "contents": "Nette\\Utils\\DateTime" },
+		{ "trigger": "n-u-fs\tNette\\Utils\\FileSystem", "contents": "Nette\\Utils\\FileSystem" },
+		{ "trigger": "n-u-f\tNette\\Utils\\Finder", "contents": "Nette\\Utils\\Finder" },
+		{ "trigger": "n-u-h\tNette\\Utils\\Html", "contents": "Nette\\Utils\\Html" },
+		{ "trigger": "n-u-i\tNette\\Utils\\Image", "contents": "Nette\\Utils\\Image" },
+		{ "trigger": "n-u-j\tNette\\Utils\\Json", "contents": "Nette\\Utils\\Json" },
+		{ "trigger": "n-u-p\tNette\\Utils\\Paginator", "contents": "Nette\\Utils\\Paginator" },
+		{ "trigger": "n-u-r\tNette\\Utils\\Random", "contents": "Nette\\Utils\\Random" },
+		{ "trigger": "n-u-s\tNette\\Utils\\Strings", "contents": "Nette\\Utils\\Strings" },
+		{ "trigger": "n-u-v\tNette\\Utils\\Validators", "contents": "Nette\\Utils\\Validators" }
+
+	]
+}

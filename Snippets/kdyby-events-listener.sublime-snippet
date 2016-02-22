@@ -1,0 +1,42 @@
+<snippet>
+	<content><![CDATA[
+class ${1:Name}Listener extends \Nette\Object implements \Kdyby\Events\Subscriber
+{
+
+	/**
+	 * @var ${2:\\Monolog\\Logger}
+	 */
+	private \$${3:logger};
+
+	/**
+	 * @param $2 \$$3
+	 */
+	public function __construct($2 \$$3)
+	{
+		\$this->$3 = \$$3;
+	}
+
+	/**
+	 * @return array
+	 */
+	public function getSubscribedEvents()
+	{
+		return [
+			'${4:Nette\\Application\\Application}::on${5:Startup}'
+		];
+	}
+
+	public function on$5()
+	{
+		$6
+	}
+
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>kdel</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>Kdyby Events listener</description>
+</snippet>

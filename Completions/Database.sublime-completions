@@ -1,0 +1,8 @@
+{
+	"scope": "source.php",
+	"completions":
+	[
+		{ "trigger": "n-d-con\tNette\\Database\\Connection", "contents": "Nette\\Database\\Connection" },
+		{ "trigger": "n-d-ctx\tNette\\Database\\Context", "contents": "Nette\\Database\\Context" }
+	]
+}

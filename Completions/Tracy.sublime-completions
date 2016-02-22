@@ -1,0 +1,11 @@
+{
+	"scope": "source.php",
+	"completions":
+	[
+		{ "trigger": "barDump", "contents": "\\Tracy\\Debugger::barDump(${1:var}${2:, ${3:title}});" },
+		{ "trigger": "dump", "contents": "\\Tracy\\Debugger::dump(${1:var});" },
+		{ "trigger": "timer", "contents": "\\Tracy\\Debugger::timer(${1:name});" },
+		{ "trigger": "tlog", "contents": "\\Tracy\\Debugger::log(${1:message}${2:, ${3:\\Tracy\\ILogger::${4:INFO}}});" },
+		{ "trigger": "flog", "contents": "\\Tracy\\Debugger::fireLog(${1:message});" }
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"scope": "source.php",
+	"completions":
+	[
+		{ "trigger": "n-s-id\tNette\\Security\\Identity", "contents": "Nette\\Security\\Identity" },
+		{ "trigger": "n-s-pass\tNette\\Security\\Passwords", "contents": "Nette\\Security\\Passwords" },
+		{ "trigger": "n-s-perm\tNette\\Security\\Permission", "contents": "Nette\\Security\\Permission" },
+		{ "trigger": "n-s-us\tNette\\Security\\User", "contents": "Nette\\Security\\User" },
+		{ "trigger": "n-s-iauthenticator\tNette\\Security\\IAuthenticator", "contents": "Nette\\Security\\IAuthenticator" },
+		{ "trigger": "n-s-iauthorizator\tNette\\Security\\IAuthorizator", "contents": "Nette\\Security\\IAuthorizator" },
+		{ "trigger": "n-s-iid\tNette\\Security\\IIdentity", "contents": "Nette\\Security\\IIdentity" },
+		{ "trigger": "n-s-ire\tNette\\Security\\IResource", "contents": "Nette\\Security\\IResource" },
+		{ "trigger": "n-s-iro\tNette\\Security\\IRole", "contents": "Nette\\Security\\IRole" },
+		{ "trigger": "n-s-ius\tNette\\Security\\IUserStorage", "contents": "Nette\\Security\\IUserStorage" },
+		{ "trigger": "n-s-ae\tNette\\Security\\AuthenticationException", "contents": "Nette\\Security\\AuthenticationException" },
+	]
+}

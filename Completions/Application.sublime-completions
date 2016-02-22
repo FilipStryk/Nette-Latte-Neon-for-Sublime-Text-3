@@ -1,0 +1,19 @@
+{
+	"scope": "source.php",
+	"completions":
+	[
+		{ "trigger": "n-a-c\tNette\\Application\\UI\\Control", "contents": "Nette\\Application\\UI\\Control" },
+		{ "trigger": "n-a-f\tNette\\Application\\UI\\Form", "contents": "Nette\\Application\\UI\\Form" },
+		{ "trigger": "n-a-p\tNette\\Application\\UI\\Presenter", "contents": "Nette\\Application\\UI\\Presenter" },
+		{ "trigger": "n-a-re-c\tNette\\Application\\Responses\\CallbackResponse", "contents": "Nette\\Application\\Responses\\CallbackResponse" },
+		{ "trigger": "n-a-re-fi\tNette\\Application\\Responses\\FileResponse", "contents": "Nette\\Application\\Responses\\FileResponse" },
+		{ "trigger": "n-a-re-fo\tNette\\Application\\Responses\\ForwardResponse", "contents": "Nette\\Application\\Responses\\ForwardResponse" },
+		{ "trigger": "n-a-re-j\tNette\\Application\\Responses\\JsonResponse", "contents": "Nette\\Application\\Responses\\JsonResponse" },
+		{ "trigger": "n-a-re-r\tNette\\Application\\Responses\\RedirectResponse", "contents": "Nette\\Application\\Responses\\RedirectResponse" },
+		{ "trigger": "n-a-re-t\tNette\\Application\\Responses\\TextResponse", "contents": "Nette\\Application\\Responses\\TextResponse" },
+		{ "trigger": "n-a-ro-c\tNette\\Application\\Routers\\CliRouter", "contents": "Nette\\Application\\Routers\\CliRouter" },
+		{ "trigger": "n-a-ro-r\tNette\\Application\\Routers\\Route", "contents": "Nette\\Application\\Routers\\Route" },
+		{ "trigger": "n-a-ro-rl\tNette\\Application\\Routers\\RouteList", "contents": "Nette\\Application\\Routers\\RouteList" },
+		{ "trigger": "n-a-ro-sr\tNette\\Application\\Routers\\SimpleRouter", "contents": "Nette\\Application\\Routers\\SimpleRouter" }
+	]
+}

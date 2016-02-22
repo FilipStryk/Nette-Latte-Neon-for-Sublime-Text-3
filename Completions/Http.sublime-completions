@@ -1,0 +1,13 @@
+{
+	"scope": "source.php",
+	"completions":
+	[
+		{ "trigger": "n-h-ctx\tNette\\Http\\Context", "contents": "Nette\\Http\\Context" },
+		{ "trigger": "n-h-fu\tNette\\Http\\FileUpload", "contents": "Nette\\Http\\FileUpload" },
+		{ "trigger": "n-h-h\tNette\\Http\\Helpers", "contents": "Nette\\Http\\Helpers" },
+		{ "trigger": "n-h-rq\tNette\\Http\\Request", "contents": "Nette\\Http\\Request" },
+		{ "trigger": "n-h-rs\tNette\\Http\\Response", "contents": "Nette\\Http\\Response" },
+		{ "trigger": "n-h-s\tNette\\Http\\Session", "contents": "Nette\\Http\\Session" },
+		{ "trigger": "n-h-url\tNette\\Http\\Url", "contents": "Nette\\Http\\Url" }
+	]
+}

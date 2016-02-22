@@ -1,0 +1,36 @@
+<snippet>
+	<content><![CDATA[
+class ${1:${2:Name}Form} extends ${3:\Nette\Application\UI\Control}
+{
+
+	/**
+	 * @return ${5:\Nette\Application\UI\Form}
+	 */
+	protected function createComponent$1Form()
+	{
+		\$${4:form} = new $5;
+		\$$4->$6
+		\$$4->addSubmit('send', 'Odeslat');
+		\$$4->onSuccess[] = \$this->${1/(.?)/\L\1\E/i}Succeeded;
+
+		return \$$4;
+	}
+
+	/**
+	 * @param  $5  \$$4
+	 * @param  \Nette\Utils\ArrayHash      \$values
+	 */
+	public function ${1/(.?)/\L\1\E/i}Succeeded($5 \$$4, \Nette\Utils\ArrayHash \$values)
+	{
+		$7
+	}
+
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>form-control</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>Form control class</description>
+</snippet>

@@ -1,0 +1,34 @@
+{
+	"scope": "source.latte",
+	"completions":
+	[
+		{ "trigger": "|bytes", "contents": "|bytes${1::${2:precision}}" },
+		{ "trigger": "|capitalize", "contents": "|capitalize" },
+		{ "trigger": "|normalize", "contents": "|normalize" },
+		{ "trigger": "|date", "contents": "|date:${1:format}" },
+		{ "trigger": "|dataStream", "contents": "|dataStream${1::${2:mimetype}}" },
+		{ "trigger": "|firstUpper", "contents": "|firstUpper" },
+		{ "trigger": "|escapeurl", "contents": "|escapeurl" },
+		{ "trigger": "|indent", "contents": "|indent${1::${2:level}${3:, ${4:char}}}" },
+		{ "trigger": "|implode", "contents": "|implode${1::${2:glue}}" },
+		{ "trigger": "|length", "contents": "|length" },
+		{ "trigger": "|lower", "contents": "|lower" },
+		{ "trigger": "|nl2br", "contents": "|nl2br" },
+		{ "trigger": "|noescape", "contents": "|noescape" },
+		{ "trigger": "|null", "contents": "|null" },
+		{ "trigger": "|number", "contents": "|number${1::${2:decimals}${3:, ${4:decPoint}}}" },
+		{ "trigger": "|padLeft", "contents": "|padLeft:${1:length}${2:, ${3:pad}}" },
+		{ "trigger": "|padRight", "contents": "|padRight${1:length}${2:, ${3:pad}}" },
+		{ "trigger": "|replace", "contents": "|replace:${1:search}${2:, ${3:replace}}" },
+		{ "trigger": "|replaceRE", "contents": "|replaceRE${1:pattern}${2:, ${3:replace}}" },
+		{ "trigger": "|repeat", "contents": "|repeat:${1:count}" },
+		{ "trigger": "|striptags", "contents": "|striptags" },
+		{ "trigger": "|substr", "contents": "|substr:${1:offset}, ${2:length}" },
+		{ "trigger": "|strip", "contents": "|strip" },
+		{ "trigger": "|toAscii", "contents": "|toAscii" },
+		{ "trigger": "|trim", "contents": "|trim${1::${2:charset}}" },
+		{ "trigger": "|truncate", "contents": "|truncate:${1:length${2:, ${3:append}}}" },
+		{ "trigger": "|upper", "contents": "|upper" },
+		{ "trigger": "|webalize", "contents": "|webalize${1::${2:charlist}${3:, ${4:lower}}}" }
+	]
+}

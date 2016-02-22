@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+public function handle${1:Name}($2)
+{
+	$3
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>hand</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>Handle method</description>
+</snippet>

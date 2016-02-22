@@ -1,0 +1,10 @@
+{
+	"scope": "source.php",
+	"completions":
+	[
+		{ "trigger": "n-m-m\tNette\\Mail\\Message", "contents": "Nette\\Mail\\Message" },
+		{ "trigger": "n-m-sm\tNette\\Mail\\SendmailMailer", "contents": "Nette\\Mail\\SendmailMailer" },
+		{ "trigger": "n-m-smtp\tNette\\Mail\\SmtpMailer", "contents": "Nette\\Mail\\SmtpMailer" },
+		{ "trigger": "n-m-im\tNette\\Mail\\IMailer", "contents": "Nette\\Mail\\IMailer" }
+	]
+}

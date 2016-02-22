@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+interface I${1:Name}Factory
+{
+
+	/**
+	 * @return $1
+	 */
+	function create($2);
+
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ifa</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>Interface form factory</description>
+</snippet>
