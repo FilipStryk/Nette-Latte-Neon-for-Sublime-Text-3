@@ -29,7 +29,7 @@ patterns:
   - name: keyword.control.pair.latte
     match: (?<=\{)/?(block|cache|capture|define|first|foreach|form|for|ifset|ifCurrent|if|label|last|l|sep|snippet|syntax|while)\s*
   - name: keyword.operator.latte
-    match: !|/|===|as|and|AND|And|&&|or|OR|Or|\|\||\+\+|\-\-|==|<=>|>=|<=
+    match: (?<=\s)(\!|/|===|as|and|AND|And|&&|or|OR|Or|\|\||\+\+|\-\-|==|<=>|>=|<=)\s?
   - name: keyword.operator.latte
     match: ->
   - match: .*?(\|)(\w+)(?:\:([^\|\}]+))*

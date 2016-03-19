@@ -81,7 +81,7 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\!|/|===|as|and|AND|And|&amp;&amp;|or|OR|Or|\|\||\+\+|\-\-|==|&lt;=&gt;|&gt;=|&lt;=</string>
+					<string>(?&lt;=\s)(\!|/|===|as|and|AND|And|&amp;&amp;|or|OR|Or|\|\||\+\+|\-\-|==|&lt;=&gt;|&gt;=|&lt;=)\s?</string>
 					<key>name</key>
 					<string>keyword.operator.latte</string>
 				</dict>
